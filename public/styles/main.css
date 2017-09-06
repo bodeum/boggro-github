@@ -13,10 +13,11 @@
 .ya{
 	font-family: 'yaBold', sans-serif;
 }
+/*
 .hal{
 	font-family: 'Gloria Hallelujah', cursive;
 }
-
+*/
 *{
 	margin: 0;
 	padding: 0;
@@ -265,7 +266,7 @@ h2>span:last-child{
 
 footer{
 	text-align: center;
-	border-top: 1px solid black;
+	border-top: 1px solid white;
 	line-height: 50px;
 	margin-bottom: 50px;
 	color: grey;
