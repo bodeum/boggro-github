@@ -1,0 +1,18 @@
+<section id="tag">
+	<h2 ng-if="tag">{{tag}}</h2>
+	<div role="button" id="sounds{{$index + 1}}" class="audioWrap" title="{{file.tag.toString()}}" ng-click="content.play($event)" ng-repeat="file in sounds">
+		<span class="fileName ya">{{file.name}}</span>
+		<audio class="sounds{{$index + 1}}" ng-src="{{'sounds/'+file.name+'.mp3'}}" preload="auto"></audio>
+		<div class="sounds_{{$index + 1}} progress"></div>
+		<div class="icon"></div>
+	</div>
+</section>
+<section>
+	<h2>New</h2>
+	<div role="button" id="newSounds{{$index + 1}}" class="audioWrap" title="{{file.tag.toString()}}" ng-if="file.new" ng-click="content.play($event)" ng-repeat="file in newSounds">
+		<span class="fileName ya">{{file.name}}</span>
+		<audio class="newSounds{{$index + 1}}" ng-src="{{'sounds/'+file.name+'.mp3'}}" ng-if="!filse.clip" preload="auto"></audio>
+		<div class="newSounds_{{$index + 1}} progress"></div>
+		<div class="icon"></div>
+	</div>
+</section>
