@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2017-09-06
+# 2017-09-09 14 20
 components/angular/angular.min.js
 components/angular/angular-scroll.js
 components/angular/angular-ui-router.js
@@ -97,6 +97,15 @@ sounds/쫄보듬.mp3
 sounds/파밍앙.mp3
 sounds/해죠해죠.mp3
 sounds/호에에에엥.mp3
+sounds/님더라 루키피디 됐대요.mp3
+sounds/루키 대표 김보듬.mp3
+sounds/루키 보듬님이라 불러.mp3
+sounds/루키루키보이.mp3
+sounds/저 안 취했는데요.mp3
+sounds/탐욕듬.mp3
+sounds/너무 아잰데.mp3
+sounds/김안듬.mp3
+
 
 
 sounds/뀨끼 냠냠.mp3
@@ -133,7 +142,7 @@ sounds/내 고향 충청도.mp3
 sounds/가을 우체국 앞에서.mp3
 sounds/월요일 좋아.mp3
 sounds/월요일 싫어.mp3
-
+sounds/상어가족 feat.모모.mp3
 
 sounds/보트박스.mp3
 sounds/승리의 보트박스.mp3
